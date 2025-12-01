@@ -1,0 +1,142 @@
+/* Configurações básicas da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a6fa5; 
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Estilo para a galeria (os cards) */
+.galeria-amigos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+    padding: 50px 20px;
+}
+
+/* Estilo para cada cartão individual */
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+    padding: 15px;
+    width: 220px; 
+    text-align: center;
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
+    border: 3px solid #4a6fa5; 
+}
+
+.card h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+/* Estilo para o botão de mensagem */
+.botao {
+    display: block; 
+    background-color: #f0ad4e; 
+    color: white;
+    padding: 12px;
+    text-decoration: none; 
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #ec971f; 
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+/* -- Estilos da Página da Carta -- */
+.container-carta {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.container-carta h1 {
+    color: #4a6fa5;
+    text-align: center;
+    border-bottom: 2px solid #f0ad4e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.data {
+    text-align: right;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.texto-carta p {
+    margin-bottom: 1.5em;
+    text-indent: 30px; 
+    font-size: 1.1em;
+}
+
+.assinatura {
+    text-align: right;
+    margin-top: 40px;
+    font-style: oblique;
+}
+
+.botao-voltar {
+    display: block;
+    width: 200px;
+    margin: 30px auto 0;
+    text-align: center;
+    background-color: #f0ad4e;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-voltar:hover {
+    background-color: #ec971f;
+}
